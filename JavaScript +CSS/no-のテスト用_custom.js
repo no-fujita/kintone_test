@@ -34,7 +34,7 @@
       return event;
     }
 
-    var filterButton = createButton('custom-kintone-button-filter', 'フィルタ', function() {
+    var filterButton = createButton('custom-kintone-button-filter', '更新', function() {
       var record = event.record;
       var sample2 = record.sample2;
       if (sample2 && sample2.value === true) {
